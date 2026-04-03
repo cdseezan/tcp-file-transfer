@@ -53,3 +53,17 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Your custom executables
+send
+receive
+split
+combine
+
+# Chunk files
+chunk_*.bin
+
+# Large test files (optional)
+*.mp4
+*.mkv
+*.txt   (if you want to ignore test.txt, but small files are fine)
